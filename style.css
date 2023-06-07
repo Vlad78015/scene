@@ -1,0 +1,177 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    border: 0; outline: 0;
+    list-style: none; 
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+body{
+    background: url(https://idei.club/raznoe/uploads/posts/2022-11/thumbs/1668627552_idei-club-p-garazh-toni-starka-dizain-pinterest-26.jpg);
+    background-size: cover;
+}
+.avengers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-top: 150px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-image {
+    width: 350px;
+    height: 200px;
+    animation: logo 2s linear;
+    transition: 0.4s;
+}
+.logo-image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@keyframes logo{
+    0%{
+        transform: translateY(-200px);
+    }
+}
+.stark {
+}
+.stark-info {
+    width: 200px;
+    height: 60px;
+    margin-left: 220px;
+    margin-top: -390px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.stark-text{
+}
+.tony-stark {
+    width: 300px;
+    height: 400px;
+    transition: 0.4s;
+    animation: stark 2s linear;
+}
+.stark:active .stark-info{
+    opacity: 1;
+}
+@keyframes stark{
+    0%{
+        transform: translateX(-200px);
+    }
+}
+.tony-stark:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.infinite {
+}
+.inf-stone {
+    width: 50px;
+    height: 50px;
+    transition: 0.4s;
+    opacity: 0;
+    position: absolute;
+    bottom: 50%;
+}
+.glove {
+}
+.thanos-glove {
+    width: 100px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 0px;
+    animation: glove 2s linear infinite alternate;
+    position: relative;
+}
+.thanos-glove:hover{
+    cursor: pointer;
+}
+.infinite:active .inf-stone{
+    margin-left: 500px;
+    opacity: 1;
+}
+@keyframes glove{
+    0%{
+        transform: scale(1.2) rotate(-30deg);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+.rogers {
+}
+.steve-rogers {
+    width: 200px;
+    height: 400px;
+    transition: 0.4s;
+    animation: america 2s linear;
+}
+@keyframes america{
+    0%{
+        transform: translateX(200px);
+    }
+}
+.steve-rogers:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.rogers-info {
+    width: 200px;
+    height: 100px;
+    margin-left: -190px;
+    margin-top: -420px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.rogers:active .rogers-info{
+    opacity: 1;
+}
+.rogers-text {
+}
+.vision {
+    margin-top: -200px;
+}
+.vision-jarvis:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.vision-jarvis {
+    width: 120px;
+    height: 180px;
+    transition: 0.4s;
+    animation: jarvis 2s linear;
+}
+@keyframes jarvis{
+    0%{
+        transform: translateX(-100px);
+    }
+}
+.vision-info {
+    width: 120px;
+    height: 80px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: -170px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.vision-text {
+}
+.vision:active .vision-info{
+    opacity: 1;
+}
